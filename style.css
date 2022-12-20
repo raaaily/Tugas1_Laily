@@ -1,0 +1,345 @@
+body {
+    background-color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    grid-area: navbar;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(251, 255, 255);
+    height: 85px;
+    padding: 0 10%;
+    align-items: center;
+}
+
+.navbar .nav-bar > p {
+    color: black;
+    font-weight:bold;
+}
+
+.navbar .search-box {
+    display: flex;
+    align-items: center;
+    background-color: rgb(251, 251, 251);
+    padding: 8px 16px;
+    border-radius: 40cm;
+}
+
+.navbar .search-box .search-icon {
+    font-size: 0.99rem;
+    color: #2c2c2c;
+}
+
+.navbar .search-input .input {
+    background-color: unset;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-weight: normal;
+    color: #2c2c2c;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    color: black;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.navbar .nav-menu .fa-instagram {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.navbar .nav-menu .fa-twitter {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.navbar .nav-menu .fa-linkedin {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.container {
+    box-sizing: border-box;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.first-feed .post-block {
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 500px;
+    padding-bottom: 100px;
+}
+
+.first-feed .post-title1 {
+    padding-top: 8px;
+}
+
+.first-feed .post-title1 > h1 {
+    font-weight: bolder;
+    font-size: xx-large;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.first-feed .post-title1 > h1 .gelaskopi {
+    position: absolute;
+    left: 28%;
+    right: 65.92%;
+    top: 47.23%;
+    bottom: 38.42%;
+    transform: rotate(-23.28deg);
+}
+
+.first-feed .post-title1 > h4 {
+    font-size: 20px;
+    padding-top: 0px;
+    color: rgba(74, 85, 104, 100);
+}
+
+.first-feed .post-block .post-img1 {
+    position: absolute;
+    left: 50.61%;
+    right: 6.07%;
+    top: 12.99%;
+    bottom: 11.85%;
+    padding-top: 70px;
+}
+
+.second-feed .col-md-6 {
+    padding-bottom: 20px;
+}
+
+.second-feed .col-md-6 .section-box {
+    padding-top: 49px;
+    padding-left: 10px;
+    padding-right: 17px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.second-feed .section-title {
+    padding-top: 35px;
+}
+
+.second-feed .section-title > h2 {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.second-feed .section-caption > p {
+    font-weight: 100;
+    font-size: small;
+    color: rgba(74, 85, 104, 100);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 635px;
+}
+
+.second-feed .section-caption > span {
+    font-weight: 100;
+    font-size: small;
+    color: rgba(74, 85, 104, 100); 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.second-feed .section-caption > a {
+    text-decoration: none;
+}
+
+.second-feed .post-img2 {
+    position: absolute;
+    left: 55.15%;
+    right: 0%;
+    top: 50px;
+    bottom: 11.85%;
+}
+
+.second-feed .section-caption .button-btn {
+    font-weight:bold;
+    font-size: small;
+    color: #2c2c2c;
+    padding-left: 175px;
+}
+
+.third-feed .row {
+    display: flex;
+    gap: 21px;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.third-feed .entry-content > p {
+    font-weight: 100;
+    font-size: small;
+    color: rgba(74, 85, 104, 100);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-right: 26px;
+}
+
+.third-feed .post-content > span {
+    font-weight: 100;
+    font-size: small;
+    color: rgba(74, 85, 104, 100); 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.third-feed .post-content .button-btn {
+    font-weight:bold;
+    font-size: small;
+    color: #2c2c2c;
+    padding-left: 145px;
+}
+
+.third-feed .post-content > a {
+    text-decoration: none;
+}
+
+.fourth-feed .col-md-6 {
+    padding-bottom: 100px;
+}
+
+.fourth-feed .col-md-6 .section-box {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 17px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.fourth-feed .section-title {
+    padding-top: 35px;
+}
+
+.fourth-feed .section-title > h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-right: 580px;
+}
+
+.fourth-feed .section-caption > p {
+    font-weight: 100;
+    font-size: small;
+    color: rgba(74, 85, 104, 100);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 635px;
+}
+
+.fourth-feed .section-caption > span {
+    font-weight: 100;
+    font-size: small;
+    color: rgba(74, 85, 104, 100); 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.fourth-feed .section-caption > a {
+    text-decoration: none;
+}
+
+.fourth-feed .post-img2 {
+    position: absolute;
+    left: 50.61%;
+    right: 6.07%;
+    top: 20px;
+    bottom: 11.85%;
+}
+
+.fourth-feed .section-caption .button-btn {
+    font-weight:bold;
+    font-size: small;
+    color: #2c2c2c;
+    padding-left: 175px;
+}
+
+.fourth-feed .section-box .text-button {
+    margin-top: 90px;
+    position: absolute;
+    background-color:#6B46C1;
+    right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-right: 23px;
+}
+
+.fourth-feed .section-box .text-button .t-button {
+    color: white;
+    margin-right: 20px;
+}
+
+.fourth-feed .t-button .fa-circle-arrow-down {
+    position: absolute;
+    color: white;
+    left: 4.33%;
+    right: 4.33%;
+    top: 4.33%;
+    bottom: 4.33%;
+    margin-top: 10px;
+    margin-left: 87px;
+    
+}
+
+.footer-box {
+    grid-area: navbar;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(251, 255, 255);
+    height: 85px;
+    padding: 0 2%;
+    align-items: center;
+}
+
+.footer-box .ftr-bar1 > h4 {
+    color: black;
+    font-weight:bold;
+    margin-left: -10px;
+}
+
+.footer-box .ftr-bar2 > p {
+    color: black;
+    margin-right: 530px;
+    margin-left: -5px;
+}
+
+.footer-box .ftr-logo {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    color: black;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-box .ftr-logo .fa-instagram {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-box .ftr-logo .fa-twitter {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-box .ftr-logo .fa-linkedin {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
